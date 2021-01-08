@@ -1,6 +1,6 @@
 # hi there 👋
 
-this repro demonstrates that static queries do not re-run when a field in filters update their values.
+this repro demonstrates that static queries do not always re-run when a field in filters update their values.
 see ./src/components/menu.js for where the filtered query is.
 
 first: run gatsby develop and observe that the menu name is updating every 3 seconds
